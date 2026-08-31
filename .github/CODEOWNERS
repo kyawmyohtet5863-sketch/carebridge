@@ -1,0 +1,7 @@
+# Add real GitHub usernames after the team is confirmed. Keep examples commented
+# until then so GitHub does not try to resolve nonexistent accounts.
+# /backend/ @backend-owner
+# /web/ @web-owner
+# /mobile/ @mobile-owner
+# /docs/ @documentation-owner
+# /.github/ @project-lead
