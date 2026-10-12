@@ -1,6 +1,10 @@
 # CareBridge
 
-CareBridge is a web and mobile student result and attendance reporting system for one private middle or high school. Administrators and teachers manage academic records through a React web application, while parents securely view published attendance and monthly results through the web or Flutter mobile application.
+CareBridge connects academic reporting with student growth, school/home activities, student voice and practical family support for one school. React web serves Administration, Teacher and Family panels; Flutter provides the Family mobile client. These are confirmed planning requirements, not claims of implemented capabilities.
+
+## Confirmed planning report
+
+[Planning report Version 1.1](docs/PANELS_AND_PERMISSIONS_PLAN.md), updated 2026-10-12, defines panel usage, scoped permissions, branding, English/Myanmar support and development exit criteria. School-specific policies require validation.
 
 ## Final technology stack
 
@@ -44,10 +48,21 @@ carebridge/
 
 ## User roles
 
-- **Administrator:** manages accounts, students, guardians, classes, subjects, assignments, and report publication.
+- **Main Admin:** manages accounts, students, guardians, classes, subjects, assignments, and report publication.
+- **Sub-admin:** uses the Administration panel with explicit module/action grants and class/school scope; cannot delegate or elevate permissions.
 - **Teacher:** manages attendance and results only for assigned classes and subjects.
-- **Parent / Guardian:** views only linked children and only published information.
+- **Parent / Guardian:** views linked children's published academic reports and explicitly shared growth records; contributes observations and family responses.
 - **Student:** no direct account in the prototype.
+
+## Confirmed first-release additions
+
+- Activities, interests, achievements, student reflections and agreed support goals.
+- Family acknowledgement, context, correction and conversation requests.
+- Admin-managed logo/theme with preview, publication, recovery and audited Sub-admin delegation.
+- English / မြန်မာ on web/mobile and bilingual report labels; original user-written content remains unchanged.
+- Author-private portfolio drafts, explicit audiences and versioned academic report corrections.
+
+See the planning report for deferred features and privacy boundaries.
 
 ## Core report workflow
 
@@ -83,7 +98,7 @@ The repository structure and documentation are initialized first. Application fr
 
 ## Project status
 
-Planning and repository foundation.
+Confirmed planning and repository foundation. Full implementation, runtime verification and school-policy validation remain outstanding. See [updated roadmap](docs/ROADMAP.md); the local uncommitted starter described in the report is not published by this documentation update.
 
 ## License
 
